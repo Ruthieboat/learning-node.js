@@ -1,7 +1,7 @@
 import { createServer } from "node:http"; 
 
 const server = createServer((req, res) => {
-    res.writeHead(500, {'Content-Type': 'text/html'});
+    res.writeHead(200, {'Content-Type': 'text/html'});
     res.end('Server is running');
 });
 
